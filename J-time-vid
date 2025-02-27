@@ -94,7 +94,7 @@
         }
     </style>
     <script>
-        let timeLeft = 300; // 300 segundos = 5 minutos y 0 segundos
+        let timeLeft = 90; // 90 segundos = 1 minuto y 30 segundos
         let timerInterval;
 
         function updateTimerDisplay() {
@@ -118,7 +118,7 @@
         function pushStack(form) {
             clearInterval(timerInterval); // Detiene el temporizador si se introduce el código
             var check = parseFloat(form.password.value);
-            if (check == 12) {
+            if (check == 6) {
                 window.location.replace("https://youtu.be/N2LcMJRgW5s?si=b810jpGZsjlGxotS&t=4");
             } else {
                 window.location.replace("https://youtu.be/RTZdE7-1PRs");
@@ -130,13 +130,16 @@
 </head>
 
 <body>
-    <h1>QUEST 1</h1>
+    <h1>PRUEBA 1</h1>
 
     <div class="content">
-        <img src="https://math-gobcan.github.io/prueba/opfrac.jpg" alt="Imagen" style="width: 100%; max-width: 560px; border-radius: 10px; margin-bottom: 20px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NtkjbVb3Zv8?si=4bFtrYW6ugnYZd4g&start=23&autoplay=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
         <div class="text-below">
-            Find the solution:
+            Find the greatest common divisor of 42, 36 and 66:
         </div>
 
         <div id="timer"></div>
@@ -158,5 +161,7 @@
         </table>
     </form>
 </body>
+
+</html>
 
 </html>
