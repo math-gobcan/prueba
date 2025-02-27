@@ -94,7 +94,7 @@
         }
     </style>
     <script>
-        let timeLeft = 90; // 90 segundos = 1 minuto y 30 segundos
+        let timeLeft = 300; // 300 segundos = 5 minutos y 0 segundos
         let timerInterval;
 
         function updateTimerDisplay() {
@@ -118,8 +118,8 @@
         function pushStack(form) {
             clearInterval(timerInterval); // Detiene el temporizador si se introduce el código
             var check = parseFloat(form.password.value);
-            if (check == 278) {
-                window.location.href = "https://math-gobcan.github.io/prueba/zeus";
+            if (check == 12) {
+                window.location.replace("https://youtu.be/N2LcMJRgW5s?si=b810jpGZsjlGxotS&t=4");
             } else {
                 window.location.replace("https://youtu.be/RTZdE7-1PRs");
             }
@@ -130,16 +130,13 @@
 </head>
 
 <body>
-    <h1>PRUEBA 1</h1>
+    <h1>QUEST 1</h1>
 
     <div class="content">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NtkjbVb3Zv8?si=4bFtrYW6ugnYZd4g&start=23"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <img src="https://math-gobcan.github.io/prueba/opfrac.jpg" alt="Imagen" style="width: 100%; max-width: 560px; border-radius: 10px; margin-bottom: 20px;">
 
         <div class="text-below">
-            <p><span style="font-size:12pt;font-family:Arial,sans-serif;">Halla la distancia entre dos puntos situados a ambos lados de una monta&ntilde;a, sabiendo que desde un punto situado a 250 metros de uno y 300 metros del otro hemos medido el &aacute;ngulo comprendido,</span><span style="font-size:12pt;font-family:Arial,sans-serif;">&nbsp;60&deg;.</span></p>
+            Find the solution:
         </div>
 
         <div id="timer"></div>
